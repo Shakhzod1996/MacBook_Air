@@ -1,0 +1,170 @@
+html {
+  max-width: 100vw;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+
+.container {
+  width: 94%;
+  margin: auto;
+}
+
+
+.cont-flex {
+  display: grid;
+  grid-template-columns: .6fr 1.4fr;
+}
+
+.left-sec {
+  width: 50vw;
+}
+
+.bottom-im-slider {
+  display: flex;
+}
+
+.bottom-im-slider img {
+  width: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.top-img-container {
+  margin-top: 50px;
+}
+
+.top-img-container img {
+  margin-left: 100px;
+  width: 400px;
+}
+
+.right-sec {
+  margin-left: -100px;
+  margin-bottom: 100px;
+}
+
+.right-sec h1 {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.Ram {
+  margin-top: 30px;
+}
+
+.Ram button {
+  border: none;
+  width: 160px;
+  height: 60px;
+  gap: 10px;
+  margin-right: 10px;
+  background-color: inherit;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.xotira {
+  margin-top: 30px;
+}
+
+.xotira button {
+  border: none;
+  width: 160px;
+  height: 60px;
+  gap: 10px;
+  margin-right: 10px;
+  background-color: inherit;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.ranglar {
+  margin-top: 30px;
+  display: flex;
+}
+
+.ranglar button {
+  border: none;
+  width: 160px;
+  height: 60px;
+  gap: 10px;
+  margin-right: 10px;
+  background-color: inherit;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.tilla {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gold;
+}
+
+.kumush {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.kosmik {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(196, 196, 196);
+}
+
+.rang {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.active {
+  border: 2px solid rgb(47, 117, 239) !important;
+}
+.soni {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.soni button {
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+/* ?Swiper JS */
+.swiper {
+  width: 100%;
+  height: 120px;
+  margin-top: 70px;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+.swiper-slide p {
+  margin-left: -36px;
+  margin-top: 10px;
+}
