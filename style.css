@@ -30,6 +30,11 @@ body {
 
 .bottom-im-slider {
   display: flex;
+  margin-top: 40px;
+}
+
+button {
+  font-weight: 700;
 }
 
 .bottom-im-slider img {
@@ -39,12 +44,12 @@ body {
 }
 
 .top-img-container {
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 .top-img-container img {
-  margin-left: 100px;
-  width: 400px;
+  margin-left: 70px;
+  width: 350px;
 }
 
 .right-sec {
@@ -138,11 +143,51 @@ body {
 .soni {
   display: flex;
   margin-top: 20px;
+}
+
+.soni p {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
 }
 
 .soni button {
   border: none;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #999;
+  align-items: center;
+  background-color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.narxi {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.savatga-qushish {
+  display: block;
+  text-align: center;
+}
+
+.savatga-qushish button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.savat {
+  background-color: #06c !important;
+  color: #fff !important;
 }
 
 
