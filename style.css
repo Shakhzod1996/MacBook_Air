@@ -68,7 +68,7 @@ button {
 
 .Ram button {
   border: none;
-  width: 160px;
+  width: 180px;
   height: 60px;
   gap: 10px;
   margin-right: 10px;
@@ -83,7 +83,7 @@ button {
 
 .xotira button {
   border: none;
-  width: 160px;
+  width: 180px;
   height: 60px;
   gap: 10px;
   margin-right: 10px;
@@ -99,8 +99,8 @@ button {
 
 .ranglar button {
   border: none;
-  width: 160px;
-  height: 60px;
+  width: 190px;
+  height: 70px;
   gap: 10px;
   margin-right: 10px;
   background-color: inherit;
