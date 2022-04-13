@@ -59,10 +59,20 @@ button {
 
 .top-img-container {
   margin-top: 90px;
+  margin-left: 70px;
+  overflow: hidden;
+  width: 350px;
+}
+
+.img-slide {
+  display: flex;
+  background-color: #999;
+  height: 100%;
+  transition: all .5s ease;
 }
 
 .top-img-container img {
-  margin-left: 70px;
+  /* margin-left: 70px; */
   width: 350px;
 }
 
@@ -111,7 +121,7 @@ button {
   display: flex;
 }
 
-.ranglar button {
+.btns{
   border: none;
   width: 190px;
   height: 70px;
@@ -120,9 +130,11 @@ button {
   background-color: inherit;
   border: 1px solid #999;
   border-radius: 10px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.tilla {
+#one1{
   margin: auto;
   width: 20px;
   height: 20px;
@@ -130,7 +142,7 @@ button {
   background-color: gold;
 }
 
-.kumush {
+#one2{
   margin: auto;
   width: 20px;
   height: 20px;
@@ -138,7 +150,7 @@ button {
   background-color: grey;
 }
 
-.kosmik {
+#one3{
   margin: auto;
   width: 20px;
   height: 20px;
@@ -161,7 +173,7 @@ button {
 
 .soni p {
   width: 80px;
-  height: 30px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,8 +183,8 @@ button {
 
 .soni button {
   border: none;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border: 1px solid #999;
   align-items: center;
   background-color: inherit;
