@@ -148,3 +148,25 @@ macObj.ram.forEach((item) => {
     });
   });
 });
+
+
+// ?Btn +-
+let count = 1;
+let plus = document.querySelector('.plus')
+let minus = document.querySelector('.minus')
+let num = document.querySelector('.num')
+
+plus.addEventListener('click', () => {
+  count++
+  num.innerHTML = count
+})
+
+minus.addEventListener('click', () => {
+  count--
+  num.innerHTML = count
+  if (count == 0) {
+    minus.setAttribute('disabled', 'disabled')
+  } else if(count < 0){
+    minus.removeAttribute('disabled')
+  }
+})
